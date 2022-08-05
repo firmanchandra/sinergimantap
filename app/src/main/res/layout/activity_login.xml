@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:text="Sinergi Mantap"
+            android:textSize="50dp"
+            android:background="#FFEB3B"
+            android:gravity="center_horizontal"
+            android:textColor="#100E0E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/Mandiritaspenlogo"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <CalendarView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <Button
+            android:text="Login"
+            android:layout_marginTop="80dp"
+            android:textColor="#fff"
+            android:background="#FFEB3B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
